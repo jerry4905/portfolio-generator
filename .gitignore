@@ -130,3 +130,5 @@ dmypy.json
 
 # DS store
 .DS_Store
+
+node_modules/
