@@ -18,9 +18,9 @@ const writeFile = fileContent => {
       });
     });
   };
-  const copyFile = ( ) => {
+  const copyFile = () => {
     return new Promise((resolve, reject) => {
-      fs.copyFile('./dist/index.html', fileContent, err => {
+      fs.copyFile('./dist/index.html', './dist/style.css', err => {
         // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
         if (err) {
           reject(err);
